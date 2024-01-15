@@ -38,6 +38,18 @@
     }
 
     .banner-header-options {
+        margin-top: 2rem;
+    }
+
+    .banner-header-options input {
+        width: 80%;
+    }
+
+    .banner-header-options select {
+        width: 80%;
+    }
+
+    .banner-header-options {
         height: 270px;
     }
 

@@ -144,35 +144,40 @@ body {
 }
 
 .banner-header-options input {
-    width: auto;
+    width: 20%;
+    height: 50px;
+    border-radius: 8px;
+    background: var(--inner-content-color);
+    border: none;
+}
+
+.banner-header-options select {
+    width: 20%;
     height: 52px;
     border-radius: 8px;
     background: var(--inner-content-color);
     border: none;
 }
 
-/* #drop-down-1 {
-    position: absolute;
-    left: 410px;
-}
-
-#drop-down-2 {
-    position: absolute;
-    left: 630px;
-} */
-
 #btn-find-now {
     font-size: 0.9rem;
     font-weight: 700;
 }
 
-.banner-header-options input:focus {
+.banner-header-options input:focus, select:focus {
     outline: none;
     text-indent: 15px;
     font-size: 1rem;
 }
 
 .banner-header-options input::placeholder {
+    color: var(--input-placeholder-color);
+    font-size: 1rem;
+    font-weight: 400;
+    text-indent: 15px;
+}
+
+.banner-header-options select {
     color: var(--input-placeholder-color);
     font-size: 1rem;
     font-weight: 400;
