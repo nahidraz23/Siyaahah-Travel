@@ -1,0 +1,41 @@
+/* responsive design */
+
+/* for mobile devices */
+
+@media screen and (max-width: 576px){
+    .nav-bar,
+    .banner-header,
+    .banner-header-options {
+        flex-direction: column;
+    }
+
+   .nav-bar .nav-menu ul{
+        display: none;
+    }
+
+    .nav-bar{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-bar .site-title-container .site-title {
+        font-size: 1.2rem;
+    }
+
+    #bar-icon-responsive {
+        display: inline;
+    }
+
+    .banner-header-title h1 {
+        font-size: 1.3rem;
+        margin-top: 32px;
+    }
+
+    .banner-header-title p {
+        width: auto;
+        font-size: 0.8rem;
+    }
+    .banner-header-options{
+        height: 270px;
+    }
+}
