@@ -164,7 +164,8 @@ body {
     font-weight: 700;
 }
 
-.banner-header-options input:focus, select:focus {
+.banner-header-options input:focus,
+select:focus {
     outline: none;
     text-indent: 15px;
     font-size: 1rem;
@@ -243,4 +244,68 @@ body {
 .img-box {
     display: flex;
     gap: 24px;
+}
+
+/* why choose us section */
+
+.choose-us-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.choose-us-headings {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.choose-us-headings h3 {
+    margin: 0;
+}
+
+.choose-us-headings p {
+    width: 58%;
+    margin: 24px;
+}
+
+.choose-us-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.choose-us-cards {
+    width: 50%;
+    height: 284px;
+    border-radius: 16px;
+}
+
+#card1 {
+    border: 1px solid rgba(251, 181, 99, 0.05);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+#card2 {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+#card3 {
+    border: 1px solid rgba(233, 68, 68, 0.05);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.choose-us-cards-row1 {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+}
+
+.choose-us-cards-row2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
