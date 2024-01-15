@@ -2,18 +2,19 @@
 
 /* for mobile devices */
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
+
     .nav-bar,
     .banner-header,
     .banner-header-options {
         flex-direction: column;
     }
 
-   .nav-bar .nav-menu ul{
+    .nav-bar .nav-menu ul {
         display: none;
     }
 
-    .nav-bar{
+    .nav-bar {
         flex-direction: row;
         justify-content: space-between;
     }
@@ -35,7 +36,40 @@
         width: auto;
         font-size: 0.8rem;
     }
-    .banner-header-options{
+
+    .banner-header-options {
         height: 270px;
+    }
+
+    .our-popular-plan {
+        margin-top: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .our-popular-plan .popular-plan-banner img {
+        margin-top: 24px;
+    }
+
+    .destination-container {
+        margin-top: 24px;
+    }
+
+    .destination-headings h3 {
+        font-size: 1.3rem;
+    }
+
+    .destination-headings p {
+        width: auto;
+    }
+
+    .img-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .img-box img {
+        width: 335px;
+        height: 176px;
     }
 }
