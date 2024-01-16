@@ -383,7 +383,6 @@ select:focus {
 }
 
 .newsletter-banner img {
-    width: auto;
     height: 100%;
 }
 
@@ -397,6 +396,9 @@ select:focus {
     position: absolute;
     top: 278px;
     left: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .newsletter-banner .newsletter-sticker p {

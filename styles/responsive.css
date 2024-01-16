@@ -7,7 +7,7 @@
     .nav-bar,
     .banner-header,
     .banner-header-options,
-    .choose-us-cards-row1  {
+    .choose-us-cards-row1 {
         flex-direction: column;
     }
 
@@ -86,8 +86,14 @@
         height: 176px;
     }
 
+    /* why choose us section */
+
     .choose-us-container {
         margin-top: 24px;
+    }
+
+    .choose-us-headings p{
+        width: auto;
     }
 
     .choose-us-cards {
@@ -104,11 +110,51 @@
     }
 
     .choose-us-cards h3 {
+        width: auto;
         margin-left: 16px;
         margin-top: 16px;
     }
 
     .choose-us-cards p {
-        margin:0 0 0 16px;
+        width: auto;
+        margin: 0 0 0 16px;
+    }
+
+    .newsletter-container {
+        margin-top: 24px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .newsletter-container .newsletter-subscription {
+        width: auto;
+        padding: 15px;
+    }
+
+    .newsletter-subscription h3 {
+        margin: 0;
+    }
+    .newsletter-subscription p {
+        margin: 5px auto;
+    }
+    
+    
+    .newsletter-banner .newsletter-sticker {
+        width: 228px;
+        height: 79px;
+        top: 190px;
+        left: 100px;
+    }
+
+    .newsletter-banner .newsletter-sticker p {
+        font-size: 0.9rem;
+    }
+
+    .newsletter-banner .newsletter-sticker h3 {
+        font-size: 1rem;
+    }
+
+    .newsletter-banner img {
+        width: 100%;
+        height: 300px;
     }
 }
