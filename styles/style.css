@@ -49,6 +49,10 @@ body {
     line-height: 1.3rem;
 }
 
+.hr {
+    background: rgba(19, 19, 24, 0.10);
+}
+
 /* header section */
 
 .nav-bar {
@@ -164,8 +168,7 @@ body {
     font-weight: 700;
 }
 
-.banner-header-options input:focus,
-select:focus {
+.banner-header-options input:focus, select:focus {
     outline: none;
     text-indent: 15px;
     font-size: 1rem;
@@ -281,6 +284,7 @@ select:focus {
     width: 50%;
     height: 284px;
     border-radius: 16px;
+    /* margin: 32px 32px; */
 }
 
 #card1 {
@@ -308,4 +312,26 @@ select:focus {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.choose-us-cards img {
+    width: 64px;
+    height: 64px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.choose-us-cards h3 {
+    color: var(--headings-text-color);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-left: 32px;
+}
+
+.choose-us-cards p {
+    width: 80%;
+    color: var(--normal-text-color);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 32px;
 }
