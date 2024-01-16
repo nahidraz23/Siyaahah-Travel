@@ -212,10 +212,6 @@ select:focus {
     margin-top: 1rem;
 }
 
-/* .popular-plan-texts p {
-    margin-top: 1.5rem;
-} */
-
 #btn-read-more {
     margin-top: 2rem;
 }
@@ -260,6 +256,110 @@ select:focus {
 .img-box img:hover {
     transform: scale(1.3);
     cursor: pointer;
+}
+
+.maldives {
+    position: relative;
+}
+
+.maldives h3{
+    color: #fff;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 800;
+    top: 120px;
+    left: 220px;
+}
+
+.maldives {
+    position: relative;
+}
+
+.maldives h3{
+    color: #fff;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 800;
+    top: 120px;
+    left: 220px;
+}
+
+.indonesia {
+    position: relative;
+}
+
+.indonesia h3{
+    color: #fff;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 800;
+    top: 120px;
+    left: 220px;
+}
+
+.srilanka {
+    position: relative;
+}
+
+.srilanka h3{
+    color: #fff;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 800;
+    top: 100px;
+    left: 120px;
+}
+
+.north-america {
+    position: relative;
+}
+
+.north-america h3{
+    color: #fff;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 800;
+    top: 100px;
+    left: 150px;
+}
+
+.kashmir {
+    position: relative;
+}
+
+.kashmir h3{
+    color: #fff;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 800;
+    top: 100px;
+    left: 80px;
+}
+
+.bangladesh {
+    position: relative;
+}
+
+.bangladesh h3{
+    color: #fff;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 800;
+    top: 110px;
+    left: 150px;
+}
+
+.bandarban {
+    position: relative;
+}
+
+.bandarban h3{
+    color: #fff;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 800;
+    top: 120px;
+    left: 260px;
 }
 
 /* why choose us section */
