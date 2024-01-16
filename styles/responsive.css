@@ -139,10 +139,10 @@
     
     
     .newsletter-banner .newsletter-sticker {
-        width: 228px;
+        width: 60%;
         height: 79px;
-        top: 190px;
-        left: 100px;
+        top: 195px;
+        left: 128px;
     }
 
     .newsletter-banner .newsletter-sticker p {
