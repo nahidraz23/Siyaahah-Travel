@@ -414,3 +414,42 @@ select:focus {
     font-weight: 800;
     margin: 0;
 }
+
+/* footer section */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    height: 502px;
+}
+
+.footer-title-container {
+    display: flex;
+}
+
+.footer p {
+    width: 50%;
+    color: var(--normal-text-color);
+    text-align: center;
+}
+
+.footer-title {
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.footer-social-icon {
+    margin-top: 33px;
+}
+
+.footer hr {
+    margin: 50px auto 50px auto;
+    width: 70%;
+    border-color: rgba(19, 19, 24, 0.10);
+}
