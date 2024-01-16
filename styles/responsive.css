@@ -86,6 +86,43 @@
         height: 176px;
     }
 
+    .maldives h3{
+        top: 50px;
+        left: 100px;
+    }
+
+    
+    .indonesia h3{
+        top: 50px;
+        left: 100px;
+    }
+    
+    .srilanka h3{
+        top: 50px;
+        left: 120px;
+    }
+    
+    
+    .north-america h3{
+        top: 50px;
+        left: 60px;
+    }
+    
+    .kashmir h3{
+        top: 50px;
+        left: 110px;
+    }
+    
+    .bangladesh h3{
+        top: 45px;
+        left: 90px;
+    }
+    
+    .bandarban h3{
+        top: 50px;
+        left: 100px;
+    } 
+
     /* why choose us section */
 
     .choose-us-container {

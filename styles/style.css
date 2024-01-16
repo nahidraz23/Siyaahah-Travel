@@ -254,7 +254,7 @@ select:focus {
 }
 
 .img-box img:hover {
-    transform: scale(1.3);
+    transform: scale(1.05);
     cursor: pointer;
 }
 
