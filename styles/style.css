@@ -524,6 +524,10 @@ select:focus {
     justify-content: center;
 }
 
+.newsletter-banner .newsletter-sticker:hover {
+    transform: scale(1.3);
+}
+
 .newsletter-banner .newsletter-sticker p {
     color: var(--inner-content-color);
     font-size: 1.5rem;
