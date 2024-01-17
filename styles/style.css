@@ -262,7 +262,7 @@ select:focus {
     position: relative;
 }
 
-.maldives h3{
+.maldives h3 {
     color: #fff;
     position: absolute;
     font-size: 1.8rem;
@@ -275,7 +275,7 @@ select:focus {
     position: relative;
 }
 
-.maldives h3{
+.maldives h3 {
     color: #fff;
     position: absolute;
     font-size: 1.8rem;
@@ -288,7 +288,7 @@ select:focus {
     position: relative;
 }
 
-.indonesia h3{
+.indonesia h3 {
     color: #fff;
     position: absolute;
     font-size: 1.8rem;
@@ -301,7 +301,7 @@ select:focus {
     position: relative;
 }
 
-.srilanka h3{
+.srilanka h3 {
     color: #fff;
     position: absolute;
     font-size: 1.8rem;
@@ -314,7 +314,7 @@ select:focus {
     position: relative;
 }
 
-.north-america h3{
+.north-america h3 {
     color: #fff;
     position: absolute;
     font-size: 1.8rem;
@@ -327,7 +327,7 @@ select:focus {
     position: relative;
 }
 
-.kashmir h3{
+.kashmir h3 {
     color: #fff;
     position: absolute;
     font-size: 1.8rem;
@@ -340,7 +340,7 @@ select:focus {
     position: relative;
 }
 
-.bangladesh h3{
+.bangladesh h3 {
     color: #fff;
     position: absolute;
     font-size: 1.8rem;
@@ -353,7 +353,7 @@ select:focus {
     position: relative;
 }
 
-.bandarban h3{
+.bandarban h3 {
     color: #fff;
     position: absolute;
     font-size: 1.8rem;
@@ -537,6 +537,58 @@ select:focus {
     font-weight: 800;
     margin: 0;
 }
+
+/* trusted by comppany section */
+
+.companies-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.companies-container h1 {
+    color: var(--headings-text-color);
+    font-size: 2rem;
+    font-weight: 800;
+    border-bottom: 3px solid #FF5400;
+}
+
+.companies-container .companies-logo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.companies-logo .large-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#asia {
+    margin-left: 100px;
+}
+
+#philip {
+    margin: 50px 30px 0 20px;
+}
+
+#cebu {
+    margin: 5px 0 0 auto;
+}
+
+#expedia {
+    margin: 50px 0 auto 20px;
+}
+
+.companies-container .companies-logo img:hover {
+    filter: opacity(0.5) drop-shadow(0 0 0 gray);
+    cursor: pointer;
+}
+
 
 /* footer section */
 
